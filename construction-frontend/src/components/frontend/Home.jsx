@@ -15,6 +15,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import AvatarImg from "../../assets/images/author-2.jpg";
 import { Pagination } from "swiper/modules";
+import About from "../common/About";
 
 const Home = () => {
     return (
@@ -39,10 +40,10 @@ const Home = () => {
                                     and precise
                                 </p>
                                 <div className="">
-                                    <button className="btn btn-primary">
+                                    <button className="btn btn-primary large">
                                         Contact Now
                                     </button>
-                                    <button className="btn btn-secondary ms-2">
+                                    <button className="btn btn-secondary ms-2 large">
                                         View Projects
                                     </button>
                                 </div>
@@ -50,37 +51,10 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="section-2 py-5">
-                    <div className="container py-5">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <img src={AboutImg} alt="" className="w-100" />
-                            </div>
-                            <div className="col-md-6">
-                                <span>about us</span>
-                                <h2>
-                                    Crafting structures that last a lifetime
-                                </h2>
-                                <p>
-                                    Building enduring structures requires a
-                                    comprehensive approach that combines
-                                    advanced materials, resilient design,
-                                    routine maintenance, and sustainable
-                                    practices. By drawing on historical insights
-                                    and utilizing modern technology.
-                                </p>
-                                <p>
-                                    Designing structures that stand the test of
-                                    time involves a seamless blend of
-                                    cutting-edge materials, durable design,
-                                    ongoing upkeep, and eco-friendly practices.
-                                    By combining lessons from the past with the
-                                    power of modern technology.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+
+                <About/>
+
+                
 
                 <section className="section-3 bg-light py-5">
                     <div className="container">
@@ -118,7 +92,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -150,7 +124,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -181,7 +155,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -213,7 +187,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -336,7 +310,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -368,7 +342,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -399,7 +373,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -431,7 +405,7 @@ const Home = () => {
                                         </div>
                                         <a
                                             href="#"
-                                            className="btn btn-primary btn-sm mt-2"
+                                            className="btn btn-primary btn-sm mt-2 small"
                                         >
                                             Read More
                                         </a>
@@ -825,7 +799,7 @@ const Home = () => {
                                 industrial product
                             </p>
                         </div>
-                        <div className="row">
+                        <div className="row pt-3">
                             <div className="col-md-4">
                                 <div className="card shadow border-0">
                                     <div className="card-img-top">
@@ -835,8 +809,45 @@ const Home = () => {
                                             className="w-100"
                                         />
                                     </div>
-                                    <div className="card-body p-5">
-                                        <div></div>
+                                    <div className="card-body p-4">
+                                        <div className="mb-3">
+                                            <a href="#" className="title">Dummy Blog title</a>
+                                        </div>
+                                        <a href="#" className="btn btn-primary small">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="card shadow border-0">
+                                    <div className="card-img-top">
+                                        <img
+                                            src={BlogImg}
+                                            alt=""
+                                            className="w-100"
+                                        />
+                                    </div>
+                                    <div className="card-body p-4">
+                                        <div className="mb-3">
+                                            <a href="#" className="title">Dummy Blog title</a>
+                                        </div>
+                                        <a href="#" className="btn btn-primary small">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="card shadow border-0">
+                                    <div className="card-img-top">
+                                        <img
+                                            src={BlogImg}
+                                            alt=""
+                                            className="w-100"
+                                        />
+                                    </div>
+                                    <div className="card-body p-4">
+                                        <div className="mb-3">
+                                            <a href="#" className="title">Dummy Blog title</a>
+                                        </div>
+                                        <a href="#" className="btn btn-primary small">Read more</a>
                                     </div>
                                 </div>
                             </div>
